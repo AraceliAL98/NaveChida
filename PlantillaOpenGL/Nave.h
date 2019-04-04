@@ -11,7 +11,7 @@ class Nave : public Modelo
 		vec3 coordenadas;
 		float angulo;
 		float velocidadAngular = 2.0f;
-		float velocidad = 0.1f;
+		float velocidad = 0.001f;
 		void rotar(Direccion direccion);
 		void avanzar();
 		void actualizarMatrizInformacion();
